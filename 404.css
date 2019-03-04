@@ -1,9 +1,42 @@
 body {
-  background-image: url("Mutant.jpg");
+  background-image:url("Mutant.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
+  font-family: fantasy;
+  text-align: center;
+  margin-top: 8%;
+  }
 
 h1 {
+  color: yellow;
+  font-size: 450%;
+  font-weight: bold;
+  }
+
+h1:hover {-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
+}
+
+p {
+  color: white;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+p:hover {-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
+}
+
+a {
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+a:hover {-ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
 color:
 }
