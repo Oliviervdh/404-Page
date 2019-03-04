@@ -13,9 +13,9 @@ h1 {
   font-weight: bold;
   }
 
-h1:hover {-ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-transform: scale(1.5);
+h1:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 p {
@@ -24,9 +24,9 @@ p {
   font-weight: bold;
 }
 
-p:hover {-ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-transform: scale(1.5);
+p:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 a {
@@ -35,8 +35,8 @@ a {
   font-weight: bold;
 }
 
-a:hover {-ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-transform: scale(1.5);
-color:
+p a:hover {
+  -webkit-transform: scale(3);
+  transform: scale(3);
+  color: green;
 }
