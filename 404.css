@@ -52,8 +52,10 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   border-radius: 5px;
+
 }
 
 a:hover, a:active {
   background-color: red;
+  opacity: 0.5;
 }
