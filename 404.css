@@ -1,10 +1,12 @@
 body {
-  background-image:url("Mutant.jpg");
+  background-image:url("Mutanthulk.png");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: fantasy;
   text-align: center;
-  margin-top: 8%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 12%;
   }
 
 h1 {
@@ -27,6 +29,7 @@ p {
 p:hover {
   -webkit-transform: scale(1.5);
   transform: scale(1.5);
+  color: brown;
 }
 
 a {
@@ -35,8 +38,22 @@ a {
   font-weight: bold;
 }
 
-p a:hover {
-  -webkit-transform: scale(3);
-  transform: scale(3);
+a:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
   color: green;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
