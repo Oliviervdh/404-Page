@@ -1,0 +1,60 @@
+@media only screen and (max-width: 300px){
+  body {
+    background-color: red;
+    font-size: 12px;
+  }
+  .small {
+
+  }
+
+  .medium {
+
+  }
+
+  .large {
+
+  }
+
+}
+
+}
+
+@media only screen and (min-width: 300px)(max-width: 768px){
+  body {
+    background-color: green;
+    font-size: 14px;
+  }
+  .medium {
+
+  }
+
+  .small {
+
+  }
+
+  .large {
+
+  }
+}
+
+@media only screen and (min-width: 768px){
+  body {
+    background-color: blue;
+    font-size: 16px;
+  }
+  .small {
+    width: 33.33%;
+    float: left;
+  }
+
+  .medium {
+    width: 33.33%;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .large {
+    width: 33.33%;
+    float: right;
+  }
+}
